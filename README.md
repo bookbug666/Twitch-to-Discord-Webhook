@@ -144,7 +144,7 @@ Twitch的個人檔案圖片網址並非固定網址，當你變更圖片之後�
 1. 使用{{StreamPreview}}的時候，Discord的圖片快取只會讀取一次，之後開台的樣子在Discord中都是同個圖片。
 
 **解決辦法：目前沒有**
-> 無論是改成 "https://static-cdn.jtvnw.net/previews-ttv/live_user_{{ChannelName}}-1280x720.jpg" 或是 "https://static-cdn.jtvnw.net/previews-ttv/live_user_[直接打上Username]-1280x720.jpg"，實際上POST出來的時候都是同個網址，他還是會抓取一樣的網址。
+> 無論是改成 "https://static-cdn.jtvnw.net/previews-ttv/live_user_{{ChannelName}}-1280x720.jpg" 或是 "https://static-cdn.jtvnw.net/previews-ttv/live_user_[直接打上Username]-1280x720.jpg" ，實際上POST出來的時候都是同個網址，他還是會抓取一樣的網址。
  
 # 心得
 坦白說Twitch API的延遲也差不多就是4-5分鐘，現在Bot如Mee6都能做到一樣的事情而且你換頭貼還會自動抓取，實在是沒必要用這個。
